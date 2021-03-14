@@ -3,8 +3,8 @@ import React from "react";
 function contactForm() {
   return (
     <section>
-      <h1>Contact me</h1>
-      <form id="contact-form">
+      <h1>Interest Card</h1>
+      <form id="Interest Card-form">
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" />
@@ -31,10 +31,10 @@ function contactForm() {
               <a href="#email">someone@something.com</a>
             </li>
             <li>
-              <a href="#LinkedIn" target="_blank">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/vanessa-g-b119951b8/" target="_blank">LinkedIn</a>
             </li>
             <li>
-              <a href="#GitHub" target="_blank">Github</a>
+              <a href="https://github.com/VSLG2020" target="_blank">Github</a>
             </li>
           </ul>
         </div>

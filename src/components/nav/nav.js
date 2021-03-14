@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 
 function nav(props) {
   const tabs = ['Home', 'About', 'Contact', 'Portfolio','Resume'];
