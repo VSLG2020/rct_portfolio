@@ -3,8 +3,10 @@ import Nav from './nav/nav';
 import Home from './pages/home/home';
 import About from './pages/about/about';
 import Contact from './pages/contact/contact';
+import Resume from './pages/resume/resume';
+import Portfolio from './pages/workPortfolio/workPortfolio';
 
-function Portfolio(){
+function Navbar(){
     const [currentPage, handlePageChange] = useState('Home');
 
     const renderPage = () => {
@@ -16,6 +18,12 @@ function Portfolio(){
         )
         case'Contact': return(
           <Contact/>
+        )
+        case'Resume': return(
+          <Resume/>
+        )
+        case'Portfolio': return(
+          <Portfolio/>
         )
         default:
           return(<Home/>)
@@ -41,4 +49,4 @@ function Portfolio(){
 }
 
 
-export default Portfolio;
+export default Navbar;
