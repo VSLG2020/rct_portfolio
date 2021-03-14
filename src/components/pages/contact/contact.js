@@ -1,21 +1,46 @@
 import React from "react";
 
-const Contact = () => (
-  <div>
-    <h1>Contact Page</h1>
-   
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
-  </div>
-);
+function contactForm() {
+  return (
+    <section>
+      <h1>Contact me</h1>
+      <form id="contact-form">
+        <div>
+          <label htmlFor="name">Name:</label>
+          <input type="text" name="name" />
+        </div>
+        <div>
+          <label htmlFor="email">Email address:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label htmlFor="message">Message:</label>
+          <textarea name="message" rows="5" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
 
-export default Contact;
+      <h2>Contact Me</h2>
+      <p>
+        <div>
+          <ul>
+            <li>
+              <a href="#phone">555-555-5555</a>
+            </li>
+            <li>
+              <a href="#email">someone@something.com</a>
+            </li>
+            <li>
+              <a href="#LinkedIn" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+              <a href="#GitHub" target="_blank">Github</a>
+            </li>
+          </ul>
+        </div>
+      </p>
+    </section>
+
+  );
+}
+export default contactForm;
