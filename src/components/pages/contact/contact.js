@@ -1,10 +1,11 @@
 import React from "react";
+import '../contact/contact.css';
 
 function contactForm() {
   return (
     <section>
       <h1>Interest Card</h1>
-      <form id="Interest Card-form">
+      <form id="Interest_Card-form">
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" />
@@ -21,7 +22,6 @@ function contactForm() {
       </form>
 
       <h2>Contact Me</h2>
-      <p>
         <div>
           <ul>
             <li>
@@ -31,16 +31,18 @@ function contactForm() {
               <a href="#email">someone@something.com</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/vanessa-g-b119951b8/" target="_blank">LinkedIn</a>
+            <a href="#linkedin">linkedIn</a>
             </li>
             <li>
               <a href="https://github.com/VSLG2020" target="_blank">Github</a>
             </li>
           </ul>
         </div>
-      </p>
     </section>
 
   );
 }
 export default contactForm;
+
+
+

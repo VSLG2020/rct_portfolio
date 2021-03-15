@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::marker {
+  color: transparent;
+}
+body{
+  background-color: rgba(54, 119, 110, 0.466);
+}
+a {
+  color:thistle;
+  font-size: xx-large;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: whitesmoke 75%;
+}
+
+ul.navbar a:hover {
+  color:white;
+  background-color: cadetblue;
+  cursor: pointer;
+  border-radius: 2px;
+  text-decoration: underline;
+}
+
+.Name{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-display: bold;
+text-align: center;
+text-decoration: underline;
+font-size: 70px;
+}

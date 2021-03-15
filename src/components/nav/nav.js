@@ -1,24 +1,27 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import  '../nav/nav.css';
 
 
 function nav(props) {
-  const tabs = ['Home', 'About', 'Contact', 'Portfolio','Resume'];
+  const Navbars = ['Home', 'About', 'Contact', 'Portfolio','Resume'];
   return (
+    <div className="hero-image">
     <ul className="navbar">
-      {tabs.map(tab => (
-        <li className="nav-item" key={tab}>
+      {Navbars.map(Navbar => (
+        <li className="nav-item" key={Navbar}>
           <a
-            href={'#' + tab.toLowerCase()}
-            onClick={() => props.handlePageChange(tab)}
+            href={'#' + Navbar.toLowerCase()}
+            onClick={() => props.handlePageChange(Navbar)}
             className={
-              props.currentPage === tab ? 'nav-link active' : 'nav-link'
+              props.currentPage === Navbar ? 'nav-link active' : 'nav-link'
             }
           >
-            {tab}
+            {Navbar}
           </a>
         </li>
       ))}
     </ul>
+    </div>
   );
 }
 

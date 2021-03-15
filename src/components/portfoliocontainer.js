@@ -6,6 +6,7 @@ import Contact from './pages/contact/contact';
 import Resume from './pages/resume/resume';
 import Portfolio from './pages/workPortfolio/workPortfolio';
 
+
 function Navbar(){
     const [currentPage, handlePageChange] = useState('Home');
 
