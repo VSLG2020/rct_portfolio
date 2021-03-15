@@ -1,27 +1,42 @@
 import React from "react";
 import '../contact/contact.css';
+import Card from 'react-bootstrap/Card';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function contactForm() {
+  //const //Card 
   return (
     <section>
-      <h1>Interest Card</h1>
-      <form id="Interest_Card-form">
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" />
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>Interest Card</Card.Title>
+          <Card.Text>
+            <form>
+              <label htmlFor="name">Name:</label>
+               <input type="text" name="name" />
+               <div>
+               <label htmlFor="email">Email address:</label>
+               <input type="email" name="email" />
+               </div>
+               <div>
+               <label htmlFor="message">Message:</label>
+               <textarea name="message" rows="5" />
+               </div>
+              </form>
+          </Card.Text>
+          <Button variant="submit">Submit</Button>
+        </Card.Body>
+      </Card >
+      {/* </section> */}
+  
+      
 
-      <h2>Contact Me</h2>
+
+       <h2>Contact Me</h2>
         <div>
           <ul>
             <li>
@@ -38,10 +53,12 @@ function contactForm() {
             </li>
           </ul>
         </div>
-    </section>
+    </section> 
 
-  );
-}
+  )}
+
+  
+
 export default contactForm;
 
 

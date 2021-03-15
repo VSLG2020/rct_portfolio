@@ -3,7 +3,7 @@ import  '../nav/nav.css';
 
 
 function nav(props) {
-  const Navbars = ['Home', 'About', 'Contact', 'Portfolio','Resume'];
+  const Navbars = ['Home', 'About', 'Portfolio','Resume','Contact'];
   return (
     <div className="hero-image">
     <ul className="navbar">

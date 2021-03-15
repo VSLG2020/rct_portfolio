@@ -7,44 +7,44 @@ import Resume from './pages/resume/resume';
 import Portfolio from './pages/workPortfolio/workPortfolio';
 
 
-function Navbar(){
-    const [currentPage, handlePageChange] = useState('Home');
+function Navbar() {
+  const [currentPage, handlePageChange] = useState('Home');
 
-    const renderPage = () => {
-    
-      switch(currentPage){
-       
-        case'About': return(
-          <About/>
-        )
-        case'Contact': return(
-          <Contact/>
-        )
-        case'Resume': return(
-          <Resume/>
-        )
-        case'Portfolio': return(
-          <Portfolio/>
-        )
-        default:
-          return(<Home/>)
-          
-      }
-    };
+  const renderPage = () => {
+
+    switch (currentPage) {
+
+      case 'About': return (
+        <About />
+      )
+      case 'Portfolio': return (
+        <Portfolio />
+      )
+      case 'Resume': return (
+        <Resume />
+      )
+      case 'Contact': return (
+        <Contact />
+      )
+      default:
+        return (<Home />)
+
+    }
+  };
 
 
-    return (
-        <div>
-          <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-          <div>
-            {
-              
-              renderPage()
-              
-            }
-          </div>
-        </div>
-      );
+  return (
+    <div>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div>
+        {
+
+          renderPage()
+
+        }
+      </div>
+    </div>
+  );
 
 
 }

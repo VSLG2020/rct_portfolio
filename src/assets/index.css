@@ -41,3 +41,7 @@ text-align: center;
 text-decoration: underline;
 font-size: 70px;
 }
+
+
+
+a:link { color: red; }

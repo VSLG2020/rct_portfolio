@@ -1,0 +1,13 @@
+.Name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: bold;
+    text-align: center;
+    text-decoration: none;
+    /* font-size: 70px; */
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: thistle;
+}

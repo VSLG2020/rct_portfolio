@@ -1,3 +1,4 @@
-/* .profPic{
-    background-image: url("/src/assets/images/profilepic.jpg");
-} */
+img {
+    width: 50%;
+    height: auto;
+  }

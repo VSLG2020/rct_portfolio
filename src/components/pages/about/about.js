@@ -7,7 +7,7 @@ function About() {
   return (
     <section>
       <div>
-      <img src={profPic} style={{ width: "100%" }} alt="profPic" />
+      <img src={profPic} style={{ width: "50%" }} alt="profPic" />
       <div className="aboutMe">
         <h1 id="about">Who am I?</h1>
       </div>
