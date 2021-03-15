@@ -1,0 +1,13 @@
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color:rgb(62, 83, 79), transparent;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    left: 550px;
+    width: fit-content;
+    display:flex;
+    height: fit-content;
+    font-size: large;
+  }

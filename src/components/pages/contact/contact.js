@@ -45,13 +45,7 @@ function contactForm() {
             <li>
               <a href="#email">someone@something.com</a>
             </li>
-            <li>
-            <a href="#linkedin">linkedIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/VSLG2020" target="_blank">Github</a>
-            </li>
-          </ul>
+           </ul>
         </div>
     </section> 
 

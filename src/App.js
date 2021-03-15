@@ -1,16 +1,18 @@
 import React from "react";
-import PortfolioContainer from "./components/portfoliocontainer";
+import Headercontainer from "./components/Headercontainer";
+import Footercontainer from './components/footer/footer';
 
-const App = () => <PortfolioContainer />;
-
-// class Header extends React.Component {
-//     render() {
-//        return (
-//           <div>
-//              <h1>Header</h1>
-//           </div>
-//        );
-//     }
-//  }
+function App() {
+    return (
+<div>
+    <header>
+<Headercontainer/>
+</header>
+<footer>
+    <Footercontainer/>
+</footer>
+</div>
+    )
+};
 
 export default App;
