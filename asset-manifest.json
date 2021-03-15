@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/rct_Portfolio.git/static/css/main.02d461de.chunk.css",
-    "main.js": "/rct_Portfolio.git/static/js/main.9dfe63f2.chunk.js",
-    "main.js.map": "/rct_Portfolio.git/static/js/main.9dfe63f2.chunk.js.map",
-    "runtime-main.js": "/rct_Portfolio.git/static/js/runtime-main.5796f8fb.js",
-    "runtime-main.js.map": "/rct_Portfolio.git/static/js/runtime-main.5796f8fb.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/rct_Portfolio.git/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.de79427c.chunk.js": "/rct_Portfolio.git/static/js/2.de79427c.chunk.js",
-    "static/js/2.de79427c.chunk.js.map": "/rct_Portfolio.git/static/js/2.de79427c.chunk.js.map",
-    "index.html": "/rct_Portfolio.git/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/rct_Portfolio.git/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.02d461de.chunk.css.map": "/rct_Portfolio.git/static/css/main.02d461de.chunk.css.map",
-    "static/js/2.de79427c.chunk.js.LICENSE.txt": "/rct_Portfolio.git/static/js/2.de79427c.chunk.js.LICENSE.txt",
-    "static/media/nav.css": "/rct_Portfolio.git/static/media/backgroundimg2.ea34c68b.jpeg"
+    "main.css": "/rct_Portfolio/static/css/main.ff51c894.chunk.css",
+    "main.js": "/rct_Portfolio/static/js/main.9dfe63f2.chunk.js",
+    "main.js.map": "/rct_Portfolio/static/js/main.9dfe63f2.chunk.js.map",
+    "runtime-main.js": "/rct_Portfolio/static/js/runtime-main.54110a66.js",
+    "runtime-main.js.map": "/rct_Portfolio/static/js/runtime-main.54110a66.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/rct_Portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.de79427c.chunk.js": "/rct_Portfolio/static/js/2.de79427c.chunk.js",
+    "static/js/2.de79427c.chunk.js.map": "/rct_Portfolio/static/js/2.de79427c.chunk.js.map",
+    "index.html": "/rct_Portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/rct_Portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ff51c894.chunk.css.map": "/rct_Portfolio/static/css/main.ff51c894.chunk.css.map",
+    "static/js/2.de79427c.chunk.js.LICENSE.txt": "/rct_Portfolio/static/js/2.de79427c.chunk.js.LICENSE.txt",
+    "static/media/nav.css": "/rct_Portfolio/static/media/backgroundimg2.ea34c68b.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5796f8fb.js",
+    "static/js/runtime-main.54110a66.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.de79427c.chunk.js",
-    "static/css/main.02d461de.chunk.css",
+    "static/css/main.ff51c894.chunk.css",
     "static/js/main.9dfe63f2.chunk.js"
   ]
 }
